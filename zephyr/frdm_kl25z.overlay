@@ -7,8 +7,8 @@
         clocks = <&sim 0x0 0x1034 0xb>;
         pinctrl-0 = <&uart1_default>;
         pinctrl-names = "default";
-        current-speed = <230400>;
-        clock-frequency = <48000000>;
+        current-speed = <115200>;
+        clock-frequency = <24000000>;
         status = "okay";
     };
 };
